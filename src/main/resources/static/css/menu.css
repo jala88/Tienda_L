@@ -5,11 +5,11 @@
 body{
     font-family: sans-serif;
     padding: 90px 20px 0;
-    
+    padding-top: 7%;
 }
 .header{
-    background-color: #ff2353;
-    height: 14%;
+    background-color: #076AF0;
+    height: 12%;
     position: fixed;
     top: 0;
     left: 0;
@@ -29,7 +29,7 @@ body{
     font-size: 30px;
     font-weight: bold;
     padding:0 40px;
-    
+    line-height: 12vh;
 }
 
 .nav-menu{

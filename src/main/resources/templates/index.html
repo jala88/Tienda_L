@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.timeleaf.org">
+    <head>
+        <title>Tech Shop</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Correo</th>
+                    <th>Telefono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="item : ${clientes}">
+                    <td th:text="${item.nombre}"></td>
+                    <td th:text="${item.apellidos}"></td>
+                    <td th:text="${item.correo}"></td>
+                    <td th:text="${item.telefono}"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>
